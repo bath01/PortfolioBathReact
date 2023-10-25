@@ -28,11 +28,11 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "A propos",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Travail",
   },
   {
     id: "contact",
@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Developpeur Web & Mobile",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Developpeur Front-end",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Developpeur Jeux",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Design",
     icon: creator,
   },
 ];
@@ -116,55 +116,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Développeur React.js",
     company_name: "Starbucks",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Développement et maintenance d'applications web en utilisant React.js et d'autres technologies connexes.",
+      "Collaboration avec des équipes pluridisciplinaires, y compris des designers, des chefs de produit et d'autres développeurs, pour créer des produits de haute qualité.",
+      "Mise en œuvre du design responsive et garantie de la compatibilité entre navigateurs.",
+      "Participation à des revues de code et fourniture de retours constructifs à d'autres développeurs.",
     ],
   },
   {
-    title: "React Native Developer",
+    title: "Développeur React Native",
     company_name: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Développement et maintenance d'applications mobiles en utilisant React Native et d'autres technologies connexes.",
+      "Collaboration avec des équipes pluridisciplinaires, y compris des designers, des chefs de produit et d'autres développeurs, pour créer des produits de haute qualité.",
+      "Mise en œuvre du design responsive et garantie de la compatibilité entre appareils mobiles.",
+      "Participation à des revues de code et fourniture de retours constructifs à d'autres développeurs.",
     ],
   },
   {
-    title: "Web Developer",
+    title: "Développeur Web",
     company_name: "Shopify",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Développement et maintenance d'applications web en utilisant React.js et d'autres technologies connexes.",
+      "Collaboration avec des équipes pluridisciplinaires, y compris des designers, des chefs de produit et d'autres développeurs, pour créer des produits de haute qualité.",
+      "Mise en œuvre du design responsive et garantie de la compatibilité entre navigateurs.",
+      "Participation à des revues de code et fourniture de retours constructifs à d'autres développeurs.",
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "Développeur Full Stack",
     company_name: "Meta",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Développement et maintenance d'applications web en utilisant React.js et d'autres technologies connexes.",
+      "Collaboration avec des équipes pluridisciplinaires, y compris des designers, des chefs de produit et d'autres développeurs, pour créer des produits de haute qualité.",
+      "Mise en œuvre du design responsive et garantie de la compatibilité entre navigateurs.",
+      "Participation à des revues de code et fourniture de retours constructifs à d'autres développeurs.",
     ],
   },
 ];
