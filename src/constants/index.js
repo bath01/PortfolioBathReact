@@ -80,10 +80,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -92,14 +92,14 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -109,15 +109,15 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
+    name: "docker(Debutant)",
     icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "Développeur React.js",
-    company_name: "Starbucks",
+    title: "Développeur(Unity, Python, JavaScript)",
+    company_name: "ORANGE CI / Orange Digital center => Orange Digital Academy",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
@@ -198,20 +198,41 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "INFOGRAPHIE",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Des creations faites par moi même et offrant mes services aussi pour des particuliers",
     tags: [
       {
-        name: "react",
+        name: "Photoshop",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Canvas",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Figma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "ADIA",
+    description:
+      "Un personnage annimé capable d'interagir avec l'humain dans le cadre de l'aider dans certaines tâches",
+    tags: [
+      {
+        name: "Csharp(c#)",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Unity",
         color: "pink-text-gradient",
       },
     ],
@@ -219,47 +240,26 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "PICARGO & PISCHOOL",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Une application pour suivre des marchandises c'est le cas de picargo et des elèves de leur maison jusqu'a l'ecole j'ai été au front-end de cette application",
     tags: [
       {
-        name: "react",
+        name: "Angular Js & Ionic",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "NodeJs & restapi",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Css",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
     source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
